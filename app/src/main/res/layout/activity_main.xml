@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:id="@+id/portrait">
+    android:id="@+id/portrait"
+    android:orientation="vertical">
 
     <TextView
         android:id="@+id/text"
@@ -11,6 +12,13 @@
         android:layout_marginTop="50dp"
         android:textSize="20dp"/>
 
+
+    <TextView
+        android:id="@+id/textResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:textSize="50dp" />
 
     <TableLayout
         android:layout_width="match_parent"
